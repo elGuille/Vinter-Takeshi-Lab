@@ -12,16 +12,20 @@
 		9997C1EC1CE99130000875D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9997C1EA1CE99130000875D4 /* Main.storyboard */; };
 		9997C1EE1CE99130000875D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9997C1ED1CE99130000875D4 /* Assets.xcassets */; };
 		9997C1F11CE99130000875D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9997C1EF1CE99130000875D4 /* LaunchScreen.storyboard */; };
+		AC9A9F3B1CE9A38600C74223 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9F3A1CE9A38600C74223 /* PreviewViewController.swift */; };
+		AC9A9F3D1CE9A3D400C74223 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9A9F3C1CE9A3D400C74223 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9997C1E31CE99130000875D4 /* Vinter-Takeshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vinter-Takeshi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9997C1E31CE99130000875D4 /* Vinter-Takeshi-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vinter-Takeshi-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997C1E61CE99130000875D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9997C1E81CE99130000875D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9997C1EB1CE99130000875D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9997C1ED1CE99130000875D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9997C1F01CE99130000875D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9997C1F21CE99130000875D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9A9F3A1CE9A38600C74223 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		AC9A9F3C1CE9A3D400C74223 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9A9F3D1CE9A3D400C74223 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		9997C1DA1CE99130000875D4 = {
 			isa = PBXGroup;
 			children = (
+				AC9A9F3C1CE9A3D400C74223 /* MediaPlayer.framework */,
 				9997C1E51CE99130000875D4 /* Vinter-Takeshi */,
 				9997C1E41CE99130000875D4 /* Products */,
 			);
@@ -46,7 +52,7 @@
 		9997C1E41CE99130000875D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9997C1E31CE99130000875D4 /* Vinter-Takeshi.app */,
+				9997C1E31CE99130000875D4 /* Vinter-Takeshi-Lab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +62,7 @@
 			children = (
 				9997C1E61CE99130000875D4 /* AppDelegate.swift */,
 				9997C1E81CE99130000875D4 /* ViewController.swift */,
+				AC9A9F3A1CE9A38600C74223 /* PreviewViewController.swift */,
 				9997C1EA1CE99130000875D4 /* Main.storyboard */,
 				9997C1ED1CE99130000875D4 /* Assets.xcassets */,
 				9997C1EF1CE99130000875D4 /* LaunchScreen.storyboard */,
@@ -67,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9997C1E21CE99130000875D4 /* Vinter-Takeshi */ = {
+		9997C1E21CE99130000875D4 /* Vinter-Takeshi-Lab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9997C1F51CE99130000875D4 /* Build configuration list for PBXNativeTarget "Vinter-Takeshi" */;
+			buildConfigurationList = 9997C1F51CE99130000875D4 /* Build configuration list for PBXNativeTarget "Vinter-Takeshi-Lab" */;
 			buildPhases = (
 				9997C1DF1CE99130000875D4 /* Sources */,
 				9997C1E01CE99130000875D4 /* Frameworks */,
@@ -79,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "Vinter-Takeshi";
+			name = "Vinter-Takeshi-Lab";
 			productName = "Vinter-Takeshi";
-			productReference = 9997C1E31CE99130000875D4 /* Vinter-Takeshi.app */;
+			productReference = 9997C1E31CE99130000875D4 /* Vinter-Takeshi-Lab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +103,11 @@
 				TargetAttributes = {
 					9997C1E21CE99130000875D4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YHWUEE2Q99;
 					};
 				};
 			};
-			buildConfigurationList = 9997C1DE1CE99130000875D4 /* Build configuration list for PBXProject "Vinter-Takeshi" */;
+			buildConfigurationList = 9997C1DE1CE99130000875D4 /* Build configuration list for PBXProject "Vinter-Takeshi-Lab" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9997C1E21CE99130000875D4 /* Vinter-Takeshi */,
+				9997C1E21CE99130000875D4 /* Vinter-Takeshi-Lab */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +145,7 @@
 			files = (
 				9997C1E91CE99130000875D4 /* ViewController.swift in Sources */,
 				9997C1E71CE99130000875D4 /* AppDelegate.swift in Sources */,
+				AC9A9F3B1CE9A38600C74223 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Vinter-Takeshi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tv.vinter.Vinter-Takeshi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Vinter-Takeshi-Lab";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,17 +272,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Vinter-Takeshi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tv.vinter.Vinter-Takeshi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Vinter-Takeshi-Lab";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9997C1DE1CE99130000875D4 /* Build configuration list for PBXProject "Vinter-Takeshi" */ = {
+		9997C1DE1CE99130000875D4 /* Build configuration list for PBXProject "Vinter-Takeshi-Lab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9997C1F31CE99130000875D4 /* Debug */,
@@ -279,13 +294,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9997C1F51CE99130000875D4 /* Build configuration list for PBXNativeTarget "Vinter-Takeshi" */ = {
+		9997C1F51CE99130000875D4 /* Build configuration list for PBXNativeTarget "Vinter-Takeshi-Lab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9997C1F61CE99130000875D4 /* Debug */,
 				9997C1F71CE99130000875D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
